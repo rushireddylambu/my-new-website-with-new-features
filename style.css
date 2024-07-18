@@ -7,6 +7,7 @@
   border-width: 20px;
   border-radius: 20px;
   margin: 10px;
+  box-shadow: 2px 2px #808080;
 }
 .card-title {
   font-size: 20px;
@@ -23,8 +24,5 @@
   width: 350px;
 }
 .contact-card {
-  background-color: lightslategray;
-  border-radius: 25px;
-  width: 400px;
-  padding: 20px;
+  
 }
