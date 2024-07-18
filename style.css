@@ -1,0 +1,30 @@
+.card {
+  display: inline-block; /*This helps in keeping those respective card classes side by side*/
+  width: 400px;
+  height: 500px;
+  background-color: lightblue;
+  border-color: black;
+  border-width: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card-title {
+  font-size: 20px;
+}
+.card-subtitle {
+  font-size: 20px;
+}
+.card-img-top {
+  width: 350px;
+  height: 250px;
+  padding-top: 15px;
+}
+.entername {
+  width: 350px;
+}
+.contact-card {
+  background-color: lightslategray;
+  border-radius: 25px;
+  width: 400px;
+  padding: 20px;
+}

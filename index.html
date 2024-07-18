@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body id="darkmode">
+    <div>
+      <button
+        style="
+          color: white;
+          background-color: #2c2e30;
+          height: 40px;
+          width: 150px;
+          padding: 5px;
+          margin: 5px;
+          border-radius: 15px;
+        "
+        onclick="darkmode()"
+      >
+        Turn ON Dark mode
+      </button>
+      <button
+        style="
+          height: 40px;
+          width: 150px;
+          padding: 5px;
+          margin: 5px;
+          border-radius: 15px;
+          border-width: 0px;
+        "
+        onclick="darkmodeoff()"
+      >
+        Turn OFF Darkmode
+      </button>
+      <h1 style="text-align: center" ; id="darkmode">Hello Everyone!!</h1>
+      <h2 style="text-align: center" ; id="darkmode">This is my website</h2>
+      <h2 style="text-align: center" ;>
+        My name is
+        <span style="color: rgb(10, 121, 158)"> Rushi Reddy Lambu </span>
+      </h2>
+      <center>
+        <button
+          style="
+            height: 40px;
+            width: 150px;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 15px;
+            border-width: 0px;
+          "
+          onclick="Aboutsection()"
+          id="Aboutsection"
+        >
+          About Me
+        </button>
+        <button
+          style="
+            height: 40px;
+            width: 150px;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 15px;
+            border-width: 0px;
+          "
+          onclick="Myprojectssection()"
+          id="Myprojectssection"
+        >
+          My projects
+        </button>
+        <button
+          style="
+            height: 40px;
+            width: 150px;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 15px;
+            border-width: 0px;
+          "
+          onclick="Contactmesection()"
+          id="Contactmesection"
+        >
+          Contact Me
+        </button>
+      </center>
+
+      <h1 style="text-align: center" id="aboutme" ;>About Me</h1>
+      <p
+        style="
+          text-align: center;
+          font-size: 20px;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-bottom: 50px;
+        "
+      >
+        I am a Computer Science Graduate Student at University of North Texas
+        seeking Internship opportunities for Summer 2024| machine learning, deep
+        learning, and data analytics| quick learner and hard worker
+      </p>
+      <center>
+        <img
+          style="height: 300px; border-radius: 50%"
+          src="WhatsApp Image 2024-07-17 at 7.51.08 PM.jpeg"
+          alt="My photo"
+        />
+      </center>
+      <center style="margin: 15px">
+        <p>View my linkedin profile:</p>
+        <a href="https://www.linkedin.com/in/rushi-reddy-lambu/">
+          <img
+            style="height: 50px"
+            src="linkedin-original.1024x1024.png"
+            alt="linkedin image"
+          />
+        </a>
+      </center>
+
+      <center>
+        <button
+          style="
+            height: 40px;
+            width: 150px;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 15px;
+            border-width: 0px;
+          "
+          onclick="downloadresume()"
+        >
+          My Resume
+        </button>
+      </center>
+      <h1 style="text-align: center" id="projects">My projects</h1>
+      <center>
+        <div class="card" id="darkmodetextcard1" style="width: 400px">
+          <img
+            src="WhatsApp Image 2024-07-17 at 7.51.08 PM.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" id="darkmodetextcard2" style="width: 400px">
+          <img
+            src="WhatsApp Image 2024-07-17 at 7.51.08 PM.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" id="darkmodetextcard3" style="width: 400px">
+          <img
+            src="WhatsApp Image 2024-07-17 at 7.51.08 PM.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </center>
+      <center>
+        <div class="contact-card" style="margin:40px" >
+        <h1 style="text-align: center" id="contact">Contact me</h1>
+        <h3>Enter your Name</h3>
+        <input type="text" id="entername"> 
+    </input>
+    <h3>Enter your Email</h3>
+    <input type="email" id="enteremail"> 
+</input>
+<h3>Phone Number</h3>
+    <input type="tel" id="enternumner"> 
+</input>
+<h3>Description</h3>
+    <input type="text" style="width:300px;height:150px; border-width:1px;border-radius: 15px;" id="enterdescription"> 
+</input> 
+<div class="submitbutton" >
+<button style="
+height: 40px;
+width: 150px;
+padding: 5px;
+margin: 10px;
+border-radius: 15px;
+border-width: 0px;
+">Submit</button>
+</div>
+</div>    
+ 
+</center>
+
+    </div>
+  </body>
+</html>
