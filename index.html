@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -112,7 +113,7 @@
         />
       </center>
       <center style="margin: 15px">
-        <p>View my linkedin profile:</p>
+        <p>View my linkedin and Github profiles:</p>
         <a href="https://www.linkedin.com/in/rushi-reddy-lambu/">
           <img
             style="height: 50px;"
@@ -120,7 +121,15 @@
             alt="linkedin image"
           />
         </a>
+        <a href="https://github.com/rushireddylambu">
+          <img
+            style="height: 50px;"
+            src="github.1024x999.png"
+            alt="github image"
+          />
+        </a>
       </center>
+      
 
       <center>
         <button
@@ -187,19 +196,21 @@
         </div>
       </center>
       <center>
+        <form action="https://formspree.io/f/xrbzbwnk" method="POST">
         <div class="contact-card" style="margin:40px" >
         <h1 style="text-align: center" id="contact">Contact me</h1>
         <h3>Enter your Name</h3>
-        <input type="text" id="entername"> 
+        <input type="text" name="entername" id="entername" placeholder="Enter Name" autocomplete="off" required> 
     </input>
     <h3>Enter your Email</h3>
-    <input type="email" id="enteremail"> 
+    <input type="email" name="enteremail" id="enteremail" placeholder="Enter Mail" autocomplete="off"required> 
 </input>
 <h3>Phone Number</h3>
-    <input type="tel" id="enternumner"> 
+    <input type="tel" name="enternumber" id="enternumber" placeholder="Enter Number" autocomplete="off" required> 
 </input>
 <h3>Description</h3>
-    <input type="text" style="width:300px;height:150px; border-width:1px;border-radius: 15px;" id="enterdescription"> 
+    <input type="text" style="width:300px;height:150px; border-width:1px;border-radius: 15px;" name="enterdescription" id="enterdescription" 
+    placeholder="Enter Description" autocomplete="off" required> 
 </input> 
 <div class="submitbutton" >
 <button style="
@@ -213,7 +224,7 @@ box-shadow: 2px 2px #454545;
 ">Submit</button>
 </div>
 </div>    
- 
+ </form>
 </center>
 
     </div>
